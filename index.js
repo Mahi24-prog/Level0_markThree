@@ -2,7 +2,7 @@ var readlineSync = require("readline-sync");
 
 var userName = readlineSync.question("What's your name ? ");
 
-console.log("Welcome " + userName +" to DO YOU KNOW Mahendra?");
+console.log("Welcome " + userName +" to DO YOU KNOW Mahendra?\n");
 
 var score = 0
 
@@ -41,6 +41,14 @@ var questionBank = [{
 {
   question : "Who is my favourite cricketr? ",
   answer : "rohit sharma"
+},
+{
+  question : "Who is my favourite color? ",
+  answer : "red"
+},
+{
+  question : "Where i am working? ",
+  answer : "Tcs"
 }
 ]
 
